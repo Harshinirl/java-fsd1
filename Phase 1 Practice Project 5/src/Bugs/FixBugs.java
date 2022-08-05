@@ -2,7 +2,6 @@ package Bugs;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
-
 public class FixBugs {
 	 public static void main(String[] args) {
 	        
@@ -10,9 +9,8 @@ public class FixBugs {
 	        System.out.println("\tWelcome to TheDesk \n");
 	        System.out.println("******");
 	        optionsSelection();
-
-	    }
-	    private static void optionsSelection() {
+	        }
+	 private static void optionsSelection() {
 	        String[] arr = {"1. I wish to review my expenditure",
 	                "2. I wish to add my expenditure",
 	                "3. I wish to delete my expenditure",
